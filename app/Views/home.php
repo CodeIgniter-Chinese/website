@@ -59,7 +59,7 @@ header {
 
         <div class="clr"></div>
 
-        <div class="section-title">Why CodeIgniter? </div>
+        <div class="section-title">为什么使用 CodeIgniter? </div>
         <div class="clr"></div>
 
         <div class="why-rows">
