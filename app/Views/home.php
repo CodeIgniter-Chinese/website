@@ -19,8 +19,7 @@ header {
         <div class="clr"></div>
 
         <div id="slogan-text" class="animated fadeInDown">
-            CodeIgniter is a powerful PHP framework with a very small footprint,
-            built for developers who need a simple and elegant toolkit to create full-featured web applications.
+            CodeIgniter 是一个小巧但功能强大的 PHP 框架，作为一个简单而“优雅”的工具包，它可以为开发者们建立功能完善的 Web 应用程序。
         </div> <!--slogan-note ends here-->
 
         <div id="spotlight-button-holder" class="animated fadeInDown">
