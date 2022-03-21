@@ -14,7 +14,7 @@ header {
         <div id="spotlight-title" class="animated fadeInDown">CodeIgniter
             <div id="spotlight-version">4</div>
         </div><!--spotlight title ende-->
-        <div id="spotlight-note" class="animated fadeInDown">The small framework with powerful features</div>
+        <div id="spotlight-note" class="animated fadeInDown">功能强大的小框架</div>
 
         <div class="clr"></div>
 
