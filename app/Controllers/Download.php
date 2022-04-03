@@ -20,10 +20,10 @@ class Download extends BaseController
             ];
         } catch (ExceptionInterface $e) {
             $data = [
-                'v3name' => '<em>unknown</em>',
-                'v4name' => '<em>unknown</em>',
-                'v3link' => 'https://github.com/bcit-ci/CodeIgniter/releases',
-                'v4link' => 'https://github.com/codeigniter4/framework/releases',
+                'v3name' => 'v3.1.13',
+                'v4name' => 'v4.1.9',
+                'v3link' => 'https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/3.1.13',
+                'v4link' => 'https://codeload.github.com/codeigniter4/CodeIgniter4/zip/refs/tags/v4.1.9',
             ];
         }
 
