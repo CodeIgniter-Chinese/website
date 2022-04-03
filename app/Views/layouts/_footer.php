@@ -1,13 +1,17 @@
 <footer id="footer-outer">
     <div id="footer-inner">
         <div id="footer-inner-left">
-            <a href="/policies" class="footer-menu-item" >Policies</a>
-            <a href="/the-fine-print" class="footer-menu-item" >The Fine Print</a>
-            <a href="/security-disclosures" class="footer-menu-item" >Security Disclosures</a>
-            <a href="/news" class="footer-menu-item">News</a>
-            <a href="/discuss" class="footer-menu-item" >Discuss</a>
-            <a href="/contribute" class="footer-menu-item" >Contribute</a>
-            <a href="/download" class="footer-menu-item" >Download</a>
+            <a href="https://zhuanlan.zhihu.com/codeigniter" class="footer-menu-item" target="_blanks">知乎专栏</a>
+            <a href="/help" class="footer-menu-item" >政策</a>
+            <a href="/help" class="footer-menu-item" >保留条款</a>
+<!--            <a href="/the-fine-print" class="footer-menu-item" >The Fine Print</a>-->
+<!--            <a href="/security-disclosures" class="footer-menu-item" >Security Disclosures</a>-->
+            <a href="/news" class="footer-menu-item">新闻</a>
+<!--            <a href="/discuss" class="footer-menu-item" >Discuss</a>-->
+            <a href="/contribute" class="footer-menu-item" >贡献</a>
+            <a href="/download" class="footer-menu-item" >下载</a>
+            <a href="/help/about" class="footer-menu-item" >关于</a>
+            <a href="https://codeigniter.com" target="_blank" class="footer-menu-item" >English website</a>
         </div><!--footer-inner-left ends here-->
 
         <div id="footer-inner-right">
@@ -23,26 +27,25 @@
                 </div>
             </a>
 
-            <a href="https://forum.codeigniter.com" target="_blank" aria-label="Forum">
+            <a href="https://codeigniter.org.cn/forums/" target="_blank" aria-label="Forum">
                 <div class="links-icons">
                     <div class="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 84" xml:space="preserve"><path d="M82 8.993H34c-1.1 0-2 .9-2 2v14H2c-1.1 0-2 .9-2 2v32c0 1.1.9 2 2 2h8v12c0 3 2.9 1.9 3.4 1.4l13.4-13.4H50c1.1 0 2-.9 2-2v-14h5.3l13.3 13.4c1.3 1.3 3.4.3 3.4-1.4v-12h8c1.1 0 2-.9 2-2v-32c0-1.1-.9-2-2-2zm-34 48H26c-.5 0-1 .2-1.4.6L14 68.193v-9.2c0-1.1-.9-2-2-2H4v-28h28v14c0 1.1.9 2 2 2h14v12zm32-16h-8c-1.1 0-2 .9-2 2v9.2l-10.5-10.6c-.4-.4-.9-.6-1.4-.6H36v-28h44v28z"/></svg>
                         <br />
                         <span class="data">
-						Forum
+						论坛
 					</span>
                     </div>
                 </div>
             </a>
 
-            <a href="https://codeigniterchat.slack.com/" target="_blank" aria-label="Slack Chat">
+            <a href="https://codeigniter.org.cn/forums/thread-80-1-1.html" target="_blank" aria-label="找到我们">
                 <div class="links-icons">
                     <div class="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50"><path d="M31 24c-2.757 0-5-2.243-5-5V7c0-2.757 2.243-5 5-5s5 2.243 5 5v12c0 2.757-2.243 5-5 5zM43 24h-4a1 1 0 0 1-1-1v-4c0-2.757 2.243-5 5-5s5 2.243 5 5-2.243 5-5 5zM19 24H7c-2.757 0-5-2.243-5-5s2.243-5 5-5h12c2.757 0 5 2.243 5 5s-2.243 5-5 5zM23 12h-4c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5v4a1 1 0 0 1-1 1zM19 48c-2.757 0-5-2.243-5-5V31c0-2.757 2.243-5 5-5s5 2.243 5 5v12c0 2.757-2.243 5-5 5zM7 36c-2.757 0-5-2.243-5-5s2.243-5 5-5h4a1 1 0 0 1 1 1v4c0 2.757-2.243 5-5 5zM43 36H31c-2.757 0-5-2.243-5-5s2.243-5 5-5h12c2.757 0 5 2.243 5 5s-2.243 5-5 5zM31 48c-2.757 0-5-2.243-5-5v-4a1 1 0 0 1 1-1h4c2.757 0 5 2.243 5 5s-2.243 5-5 5z"/></svg>
                         <br />
                         <span class="data">
-						Slack
-						Chat
+						找到我们
 					</span>
                     </div>
                 </div>
@@ -55,8 +58,7 @@
 <div class="clr"></div>
 
 <div id="footer-copyrights">
-    <p>&copy; <?= date('Y') ?> CodeIgniter Foundation. CodeIgniter is open source project released under the MIT
-        open source licence.</p>
+    <p>&copy; <?= date('Y') ?>CodeIgniter 基金会。CodeIgniter 是基于MIT 开源许可发布的开源项目。</p>
 
     <img id="scroll-to-top" src="/assets/icons/ci-footer.png" alt="codeigniter logotype"/>
 
