@@ -3,10 +3,11 @@
         <div id="footer-inner-left">
             <a href="https://zhuanlan.zhihu.com/codeigniter" class="footer-menu-item" target="_blanks">知乎专栏</a>
             <a href="/policies" class="footer-menu-item" >政策</a>
-            <a href="/policies" class="footer-menu-item" >保留条款</a>
+            <a href="/the-fine-print" class="footer-menu-item" >保留条款</a>
 <!--            <a href="/the-fine-print" class="footer-menu-item" >The Fine Print</a>-->
 <!--            <a href="/security-disclosures" class="footer-menu-item" >Security Disclosures</a>-->
             <a href="/news" class="footer-menu-item">新闻</a>
+            <a href="/security-disclosures" class="footer-menu-item">安全纰漏</a>
 <!--            <a href="/discuss" class="footer-menu-item" >Discuss</a>-->
             <a href="/contribute" class="footer-menu-item" >贡献</a>
             <a href="/download" class="footer-menu-item" >下载</a>
@@ -65,7 +66,7 @@
 </div>
 <!-- SCRIPTS -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
     $('#menu-toggle button').click(function(){

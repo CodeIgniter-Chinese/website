@@ -49,7 +49,7 @@
         <div class="warning">
             <p>
                 安全问题应该发送邮件给我们的<a href="mailto:security@codeigniter.com" style="color: #FFFFFF">安全团队</a>，而不是在论坛上发帖或提交一个 Github Issue，谢谢！
-                详细内容请访问：负责任的漏洞披露。
+                详细内容请访问：<a style="color: #FFFFFF" href="/security-disclosures">负责任的漏洞披露</a>。
             </p>
         </div><!--warning ende-->
 
