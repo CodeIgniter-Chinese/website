@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://codeigniter.cn';
+    public $baseURL = 'https://codeigniter.org.cn';
 
     /**
      * --------------------------------------------------------------------------

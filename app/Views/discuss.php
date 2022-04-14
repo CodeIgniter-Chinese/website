@@ -44,24 +44,6 @@
 
         <div class="clr"></div>
 
-
-        <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">IRC</div>
-            <p>
-                CodeIgniter 中国开通了 IRC 聊天室，名为 #codeigniter-cn。
-                你可以使用你常用的 IRC 客户端进入聊天室，或使用
-                <a href="http://webchat.freenode.net/?channels=%23codeigniter-cn&uio=d4%22"
-                   class="link-primary" target="_blank">webchat</a> 。本站的 IRC 页面已内嵌 webchat。
-            </p>
-            <p>如果你是 IRC 新用户，请先阅读 <a href="http://workaround.org/getting-help-on-irc"
-                                    class="link-primary" target="_blank">IRC 入门介绍</a>。 </p>
-
-            <p>
-                <a href="https://codeigniter.org.cn/irc" class="buttons-reverse" target="_blank"> 访问 IRC 页面</a>
-            </p>
-            <br /><br />
-        </div><!--inner-page-text-box ends here-->
-
         <div class="clr"></div>
 
         <div class="inner-page-text-box">

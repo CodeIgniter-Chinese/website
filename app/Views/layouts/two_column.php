@@ -21,23 +21,48 @@
     <link rel="stylesheet" href="/assets/css/animate.css">
 </head>
 <body>
-    <?= $this->include('layouts/_top_nav') ?>
+<?= $this->include('layouts/_top_nav') ?>
 
-    <div class="clr"></div>
-    <section id="content-outer-news">
-        <div id="content-inner-news">
-            <div id="news-left-column">
-                <?= $this->renderSection('sidebar') ?>
+<div class="clr"></div>
+<section id="content-outer-news">
+    <div id="content-inner-news">
+        <div id="news-left-column">
+            <div class='widget'>
+                <h4>最近的帖子</h4>
+                <a href="https://codeigniter.org.cn/forums/thread-80-1-1.html">
+                    CodeIgniter 中国 微信群、微信公众号</a>
             </div>
+        </div>
 
-            <div id="news-column">
-                <?= $this->renderSection('content') ?>
-            </div><!--news-column ends-->
-            <div class="clr"></div>
+        <div id="news-column">
+            <div class="news-box">
+                <div class="news-box-title">
+                    <a class="news-box-title-link" href="https://codeigniter.org.cn/forums/thread-80-1-1.html">CodeIgniter 中国 微信群、微信公众号</a>
+                </div>
 
-        </div><!--content inner ends-->
-    </section><!--section ende-->
+                <div class="meta">
+                    2007-11-29     Hex
+                    <br><br>归档:
+                    <ul class="tags">
+                        <li><a href="https://codeigniter.org.cn/forums/forum.php">论坛</a></li>
+                        <li><a href="https://codeigniter.org.cn/forums/forum-answer-1.html">CodeIgniter 问答求助</a></li>
+                    </ul>
+                </div>
 
-    <?= $this->include('layouts/_footer') ?>
+                <br>
+                <p>欢迎大家踊跃加入我们自己的群！</p>
+                <p>微信公众号：（请使用微信扫描下面的二维码）</p>
+                <p><img src="https://codeigniter.org.cn/forums/data/attachment/forum/201506/30/195011xk1extk0z6pkd15m.jpg" alt="微信公众号" style="width: 300px;height: 300px">
+                <div class="clr"></div>
+                <p>微信群：（微信扫码添加群主助理为好友，她会邀请你进群）</p>
+                <p><img src="https://codeigniter.org.cn/forums/data/attachment/forum/201703/31/180052c0rrrp05errptctp.png" alt="群主助理" style="width: 300px;height: 300px"></p>
+            </div>
+        </div><!--news-column ends-->
+        <div class="clr"></div>
+
+    </div><!--content inner ends-->
+</section><!--section ende-->
+
+<?= $this->include('layouts/_footer') ?>
 </body>
 </html>
