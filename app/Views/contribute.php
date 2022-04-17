@@ -141,74 +141,25 @@
 
         <div class="clr"></div>
 
-		<?php if (isset($contributors)): ?>
-
-        <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">感谢我们的杰出贡献者</div>
-            <div class="clr"></div>
-
-            <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">CodeIgniter 3</div>
-
-                <?= $this->setData(['heroes' => $contributors['framework3']])->include('layouts/_heroes') ?>
-
-            </div><!--inner-page-text-sub-box ends here-->
-
-            <div class="clr"></div>
-
-            <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">CodeIgniter 3 翻译</div>
-
-                <?= $this->setData(['heroes' => $contributors['translations3']])->include('layouts/_heroes') ?>
-
-            </div><!--inner-page-text-sub-box ends here-->
-
-            <div class="clr"></div>
-
-            <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">CodeIgniter 4</div>
-
-                <?= $this->setData(['heroes' => $contributors['framework4']])->include('layouts/_heroes') ?>
-
-            </div><!--inner-page-text-sub-box ends here-->
-
-            <div class="clr"></div>
-
-            <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">CodeIgniter 4 翻译</div>
-
-                <?= $this->setData(['heroes' => $contributors['translations4']])->include('layouts/_heroes') ?>
-
-            </div><!--inner-page-text-sub-box ends here-->
-
-            <div class="clr"></div>
-
-            <div class="clr"></div>
-
-            <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">旧网站</div>
-
-                <?= $this->setData(['heroes' => $contributors['website3']])->include('layouts/_heroes') ?>
-
-            </div><!--inner-page-text-sub-box ends here-->
-
-            <div class="clr"></div>
-
-            <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">新网站</div>
-
-                <?= $this->setData(['heroes' => $contributors['website4']])->include('layouts/_heroes') ?>
-
-            </div><!--inner-page-text-sub-box ends here-->
-
+        <div class="inner-page-text-box" id="contribute" style="display: none">
         </div><!--inner-page-text-box ende-->
-
-		<?php endif; ?>
 
     </div><!--content-inner ends here-->
 </section><!--section ende-->
 
-
-    <div class="clr"></div>
+<script>
+    $(function () {
+        $.ajax({
+            url: '/api/get-contributors',
+            type: 'GET',
+            dataType: 'html',
+            success: function (res) {
+                $('#contribute').html(res)
+                $('#contribute').show();
+            }
+        });
+    });
+</script>
+<div class="clr"></div>
 
 <?= $this->endSection() ?>

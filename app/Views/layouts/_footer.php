@@ -66,7 +66,7 @@
 </div>
 <!-- SCRIPTS -->
 
-<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+
 
 <script>
     $('#menu-toggle button').click(function(){
@@ -77,3 +77,4 @@
         $("html").animate({ scrollTop: 0 }, "slow");
     });
 </script>
+

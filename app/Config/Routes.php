@@ -44,6 +44,10 @@ $routes->get('news', 'Blog::index');
 $routes->get('news/c/(:segment)', 'Blog::category/$1');
 $routes->get('news/(:segment)', 'Blog::post/$1');
 
+//Api
+$routes->get('api', 'Api::index');
+$routes->get('api/get-download-data', 'Api::getDownloadData');
+$routes->get('api/get-contributors', 'Api::getContributors');
 /**
  * --------------------------------------------------------------------
  * Additional Routing

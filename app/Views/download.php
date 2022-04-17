@@ -13,7 +13,7 @@
 			</div><!--cv-boxes-version end-->
 			<div class="cv-boxes-content">
 				<p>CodeIgniter 4 是最新的框架版本， 专为 PHP 7.3 及以上（包括 8.1）版本打造。</p>
-				<p>发布日期为2020 年 2 月 24 日。 当前版本为 <?= $v4name ?>。 </p>
+                <p>发布日期为2020 年 2 月 24 日。 当前版本为 <span id="v4name"><?= $v4name ?></span>。 </p>
 				<p>
                     你可以点击下面的按钮此版本的框架, 但是我们推荐你查看《用户手册》的
 					<a href="https://codeigniter.org.cn/user_guide/installation/index.html" class="link-primary" target="_blank">安装章节</a>
@@ -21,11 +21,11 @@
 				</p>
 				<div class="clr"></div>
 				<div class="cv-boxes-buttons-area">
-					<a href="<?= $v4link ?>" class="buttons-reverse download-buttons" target="_blank">下载</a>
+					<a id="v4link" href="<?= $v4link ?>" class="buttons-reverse download-buttons" target="_blank">下载</a>
 					<a href="https://codeigniter.org.cn/forums/forum-answer-1.html" class="buttons-reverse download-buttons" target="_blank">讨论</a>
 					<a href="https://github.com/codeigniter4/CodeIgniter4" class="buttons-reverse download-buttons" target="_blank">GitHub</a>
 					<a href="https://github.com/codeigniter4/translations" class="buttons-reverse download-buttons" target="_blank">多语言</a>
-					<a href="/user_guide/index.html" class="buttons-reverse download-buttons">用户手册</a>
+					<a href="https://codeigniter.org.cn/user_guide/index.html" class="buttons-reverse download-buttons">用户手册</a>
 				</div><!--cv-boxes-buttons-area end-->
 			</div><!--cv-boxes-content end-->
 		</div><!--ci-version-boxes end-->
@@ -53,6 +53,24 @@
 	</div><!--content-inner end-->
 </section><!--section end-->
 
-<div class="clr"></div>
 
+
+<script>
+    $(function () {
+        $.ajax({
+            url: '/api/get-download-data',
+            type: 'GET',
+            dataType: 'json',
+            success: function (res) {
+                $('#v4name').text(res.v4name);
+                $('#v4link').attr('href', res.v4link);
+                $('#v3name').text(res.v3name);
+                $('#v3link').attr('href', res.v3link);
+            }
+        });
+    });
+</script>
+<div class="clr"></div>
 <?= $this->endSection() ?>
+
+

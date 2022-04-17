@@ -29,6 +29,7 @@
 
     <?= $this->include('layouts/_footer') ?>
 
-	<?= $this->renderSection('footerAssets') ?>
+    <?= $this->renderSection('footerAssets') ?>
+
 </body>
 </html>
