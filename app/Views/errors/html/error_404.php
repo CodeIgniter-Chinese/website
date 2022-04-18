@@ -70,14 +70,16 @@
 </head>
 <body>
 	<div class="wrap">
-		<h1>404 - File Not Found</h1>
+		<h1>404 - 页面未找到</h1>
 
 		<p>
 			<?php if (! empty($message) && $message !== '(null)') : ?>
 				<?= nl2br(esc($message)) ?>
 			<?php else : ?>
-				Sorry! Cannot seem to find the page you were looking for.
+                <div>请添加下面的微信将错误反馈给管理员.</div>
+                <img src="https://codeigniter.org.cn/forums/data/attachment/forum/201703/31/180052c0rrrp05errptctp.png" alt="微信小助手" style="width: 450px;height: 450px" class="clr">
 			<?php endif ?>
+
 		</p>
 	</div>
 </body>

@@ -43,7 +43,7 @@ class Blog
             helper('filesystem');
 
             if (! is_dir($this->config->contentPath)) {
-                log_message('error', 'Blog Content Path is not a valid directory: ' . $this->config->contentPath);
+                log_message('error', '文章不存在: ' . $this->config->contentPath);
 
                 throw BlogException::forInvalidContent();
             }
