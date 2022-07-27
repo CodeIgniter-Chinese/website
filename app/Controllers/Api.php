@@ -43,18 +43,18 @@ class Api extends BaseController
             'website4' => 'CodeIgniter 4 网站',
         ];
         // Get the top 12 contributors for each repo
-        foreach ($this->github->getContributors() as $id => $contributors) {
-            $id = $enums[$id];
+        //foreach ($this->github->getContributors() as $id => $contributors) {
+        //    $id = $enums[$id];
             // Contributors are already sorted, so grab the first 12
-            $html .= "<div class=\"inner-page-text-sub-box\"><div class=\"inner-page-text-sub-box-title\">".$id."</div>";
+        //    $html .= "<div class=\"inner-page-text-sub-box\"><div class=\"inner-page-text-sub-box-title\">".$id."</div>";
             //$data = array_slice($contributors, 0, 12);
-            $html .= $this->getHeroesHtml($contributors);
-            $html .= "</div><!--inner-page-text-sub-box ends here--><div class=\"clr\"></div>";
-            unset($data);
-        }
+        //    $html .= $this->getHeroesHtml($contributors);
+        //    $html .= "</div><!--inner-page-text-sub-box ends here--><div class=\"clr\"></div>";
+        //    unset($data);
+        // }
 
 
-        echo $html;
+        echo '';
     }
 
     //获取贡献者信息
