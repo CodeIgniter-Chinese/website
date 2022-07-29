@@ -19,7 +19,7 @@
 
         <div id="top-menu">
             <!--<a href="discover.html" class="top-menu-item hidden" title="CodeIgniter.com">Discover</a>-->
-            <a href="/news" class="top-menu-item hidden <?php if (url_is('/news*')) : ?>top-menu-item-active<?php endif ?>">新闻</a>
+            <!--<a href="/news" class="top-menu-item hidden <?php if (url_is('/news*')) : ?>top-menu-item-active<?php endif ?>">新闻</a>-->
             <a href="/contribute" class="top-menu-item hidden <?php if (url_is('/contribute')) : ?>top-menu-item-active<?php endif ?>">贡献</a>
             <a href="https://codeigniter.org.cn/user_guide/index.html" class="top-menu-item hidden">用户手册</a>
             <a href="/discuss" class="top-menu-item hidden <?php if (url_is('/discuss')) : ?>top-menu-item-active<?php endif ?>">开发者社区</a>

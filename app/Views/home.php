@@ -23,7 +23,7 @@
         </div> <!--slogan-note ends here-->
 
         <div id="spotlight-button-holder" class="animated fadeInDown">
-            <a href="https://codeigniter.org.cn/user_guide/index.html" id="spotlight-link">了解更多</a>
+            <a href="/user_guide/index.html" id="spotlight-link">了解更多</a>
         </div><!--spotlight-button-ends here-->
 
         <div id="github-scores" class="animated fadeInDown">
@@ -182,7 +182,7 @@
                     <div class="ci-features-box-title">几乎 0 配置</div>
                     <div class="clr"></div>
                     <div class="ci-features-box-text">
-                        基本设置都已经配置好了， 仅需要配置你的数据库！
+                        基本设置都已经配置好了，仅需要配置你的数据库！
                     </div><!--ci-features-box-text ends here-->
                 </div><!--ci-features-box-text ends here-->
             </div><!--ci-feature-box ends here-->
@@ -210,7 +210,7 @@
             </div> <!--important-link-boxes ends here-->
         </a>
 
-        <a href="https://codeigniter.org.cn/user_guide/index.html" class="important-link">
+        <a href="/user_guide/index.html" class="important-link">
             <div class="important-link-boxes">
                 <span class="boldy600 dark">阅读用户手册</span>
                 <br/>
@@ -223,7 +223,7 @@
             </div> <!--important-link-boxes ends here-->
         </a>
 
-        <a href="https://codeigniter.org.cn/forums/" class="important-link" target="_blank">
+        <a href="/forums" class="important-link" target="_blank">
             <div class="important-link-boxes">
                 <span class="boldy600 dark">到论坛讨论</span>
                 <br/>
