@@ -263,110 +263,24 @@
             <div class="recent-news-and-forum-posts">
                 <div class="rnafp-name">最新文章</div>
                 <div class="clr"></div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2020.02.24
+
+                <?php foreach ($news as $row) : ?>
+                    <div class="rnapf-row">
+                        <div class="rnapf-date">
+                            <?= $row['date'] ?>
+                        </div>
+                        <div class="rnapf-title">
+                            <a href="<?= $row['url'] ?>" class="rnapf-title-link"><?= esc($row['title']) ?></a>
+                        </div>
                     </div>
-                    <div class="rnapf-title">
-                        <a href="https://zhuanlan.zhihu.com/p/108894797" target="_blank" class="rnapf-title-link">CodeIgniter
-                            4.0
-                            正式版发布了！</a>
-                    </div>
-                </div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2019.06.12
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://zhuanlan.zhihu.com/p/68800595" target="_blank" class="rnapf-title-link">CodeIgniter
-                            使用技巧系列文章 </a>
-                    </div>
-                </div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2018.09.29
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://zhuanlan.zhihu.com/p/45641550" target="_blank" class="rnapf-title-link">CodeIgniter
-                            4 alpha 1
-                            版发布了 </a>
-                    </div>
-                </div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2017.08.30
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://zhuanlan.zhihu.com/p/28911539" target="_blank" class="rnapf-title-link">CodeIgniter
-                            4
-                            中文手册翻译计划 </a>
-                    </div>
-                </div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2016.07.04
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://zhuanlan.zhihu.com/p/21482815" target="_blank" class="rnapf-title-link">CodeIgniter
-                            4 Milestone
-                            1 版发布了 </a>
-                    </div>
-                </div>
+                <?php endforeach ?>
             </div><!--recent-news-and-forum-posts here-->
 
             <div class="recent-news-and-forum-posts">
                 <div class="rnafp-name">最新主题</div>
                 <div class="clr"></div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2022.04.13
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://codeigniter.org.cn/forums/thread-31014-1-1.html" target="_blank"
-                           class="rnapf-title-link">
-                            MQTT 订阅问题</a>
-                    </div>
-                </div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2021.09.11
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://codeigniter.org.cn/forums/thread-31159-1-1.html" target="_blank"
-                           class="rnapf-title-link">
-                            欢迎交流CI4实际开发中的问题,本人正在开发的小项目 </a>
-                    </div>
-                </div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2021.09.03
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://codeigniter.org.cn/forums/thread-31187-1-1.html" target="_blank"
-                           class="rnapf-title-link">
-                            PHP: 7.3.29 CodeIgniter: 4.1.3 新安装就报错，什么毛病 </a>
-                    </div>
-                </div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2021.08.02
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://codeigniter.org.cn/forums/thread-31138-1-1.html" target="_blank"
-                           class="rnapf-title-link">
-                            CI4 无法访问控制器子目录 急 </a>
-                    </div>
-                </div>
-                <div class="rnapf-row">
-                    <div class="rnapf-date">
-                        2021.06.18
-                    </div>
-                    <div class="rnapf-title">
-                        <a href="https://codeigniter.org.cn/forums/thread-31186-1-1.html" target="_blank"
-                           class="rnapf-title-link">
-                            CI4前端无法调用控制器里的方法</a>
-                    </div>
-                </div>
+
+                <div id="target-forum"></div>
             </div>
         </div>
 
@@ -375,18 +289,44 @@
 </section>
 
 <div class="clr"></div>
+
+<script type="text/html" id="template-forum">
+<% foreach (item in listing) %>
+<div class="rnapf-row">
+    <div class="rnapf-date"><%=$item.lastpost%></div>
+    <div class="rnapf-title">
+        <a href="/forums/thread-<%=item.tid%>-1-1.html" class="rnapf-title-link">
+            <%=item.subject%>
+        </a>
+    </div>
+</div>
+<% /foreach %>
+</script>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/dayjs/1.11.4/dayjs.min.js"></script>
+<script src="https://res.cdn.changbaimg.com/-/8d98e208cfa36594/cbT.js"></script>
 <script>
     $(function () {
+        // $.ajax({
+        //     url: 'https://api.github.com/repos/codeigniter4/CodeIgniter4?callback=callback',
+        //     type: 'GET',
+        //     dataType: 'jsonp',
+        //     success: function (res) {
+        //         console.log(res)
+        //         $("#stargazers_count").html(res.data.stargazers_count);
+        //         $("#forks_count").html(res.data.forks_count);
+        //     }
+        // });
         $.ajax({
-            url: 'https://api.github.com/repos/codeigniter4/CodeIgniter4?callback=callback',
+            url: '/old/api/get_thread',
             type: 'GET',
-            dataType: 'jsonp',
+            dataType: 'json',
             success: function (res) {
-                console.log(res)
-                $("#stargazers_count").html(res.data.stargazers_count);
-                $("#forks_count").html(res.data.forks_count);
+                var template = cbT.compile('template-forum');
+                $('target-forum').html(template(res.data.forum));
             }
         });
     });
 </script>
+
 <?= $this->endSection() ?>
