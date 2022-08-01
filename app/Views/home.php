@@ -293,7 +293,7 @@
 <script type="text/html" id="template-forum">
 <% foreach (item in listing) %>
 <div class="rnapf-row">
-    <div class="rnapf-date"><%=item.lastpost%></div>
+    <div class="rnapf-date"><%:func=dayjs(item.lastpost * 1000).format('YYYY.MM.DD')%></div>
     <div class="rnapf-title">
         <a href="/forums/thread-<%=item.tid%>-1-1.html" class="rnapf-title-link" target="_blank">
             <%=item.subject%>
