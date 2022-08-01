@@ -295,7 +295,7 @@
 <div class="rnapf-row">
     <div class="rnapf-date"><%=item.lastpost%></div>
     <div class="rnapf-title">
-        <a href="/forums/thread-<%=item.tid%>-1-1.html" class="rnapf-title-link">
+        <a href="/forums/thread-<%=item.tid%>-1-1.html" class="rnapf-title-link" target="_blank">
             <%=item.subject%>
         </a>
     </div>
