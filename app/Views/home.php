@@ -323,7 +323,7 @@
             dataType: 'json',
             success: function (res) {
                 var template = cbT.compile('template-forum');
-                $('target-forum').html(template(res.data.forum));
+                $('target-forum').html(template({listing: res.data.forum}));
             }
         });
     });
