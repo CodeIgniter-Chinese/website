@@ -270,7 +270,7 @@
                             <?= $row['date'] ?>
                         </div>
                         <div class="rnapf-title">
-                            <a href="<?= $row['url'] ?>" class="rnapf-title-link"><?= esc($row['title']) ?></a>
+                            <a href="<?= $row['url'] ?>" class="rnapf-title-link" target="_blank"><?= esc($row['title']) ?></a>
                         </div>
                     </div>
                 <?php endforeach ?>
