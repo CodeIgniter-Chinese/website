@@ -23,7 +23,7 @@
 				<div class="cv-boxes-buttons-area">
 					<a id="v4link" href="<?= $v4link ?>" class="buttons-reverse download-buttons" target="_blank">下载</a>
 					<a href="https://codeigniter.org.cn/forums/forum-answer-1.html" class="buttons-reverse download-buttons" target="_blank">讨论</a>
-					<a href="https://github.com/codeigniter4/CodeIgniter4" class="buttons-reverse download-buttons" target="_blank">GitHub</a>
+					<a href="https://github.com/codeigniter4/CodeIgniter4" class="buttons-reverse download-buttons" target="_blank">源代码</a>
 					<a href="https://github.com/codeigniter4/translations" class="buttons-reverse download-buttons" target="_blank">多语言</a>
 					<a href="https://codeigniter.org.cn/user_guide/index.html" class="buttons-reverse download-buttons">用户手册</a>
 				</div><!--cv-boxes-buttons-area end-->
@@ -43,7 +43,7 @@
 				<div class="clr"></div>
 				<div class="cv-boxes-buttons-area">
 					<a href="<?= $v3link ?>" class="buttons-reverse download-buttons" target="_blank">下载</a>
-					<a href="https://github.com/bcit-ci/CodeIgniter" class="buttons-reverse download-buttons" target="_blank">GitHub</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter" class="buttons-reverse download-buttons" target="_blank">源代码</a>
 					<a href="https://github.com/bcit-ci/codeigniter3-translations" class="buttons-reverse download-buttons" target="_blank">多语言</a>
 					<a href="/userguide3" class="buttons-reverse download-buttons">用户手册</a>
 				</div><!--cv-boxes-buttons-area end-->
