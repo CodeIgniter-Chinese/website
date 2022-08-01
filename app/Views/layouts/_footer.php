@@ -6,7 +6,7 @@
             <a href="/the-fine-print" class="footer-menu-item" >保留条款</a>
 <!--            <a href="/the-fine-print" class="footer-menu-item" >The Fine Print</a>-->
 <!--            <a href="/security-disclosures" class="footer-menu-item" >Security Disclosures</a>-->
-            <a href="/news" class="footer-menu-item">新闻</a>
+<!--            <a href="/news" class="footer-menu-item">新闻</a>-->
             <a href="/security-disclosures" class="footer-menu-item">安全纰漏</a>
 <!--            <a href="/discuss" class="footer-menu-item" >Discuss</a>-->
             <a href="/contribute" class="footer-menu-item" >贡献</a>
