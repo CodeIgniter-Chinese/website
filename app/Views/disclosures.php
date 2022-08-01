@@ -18,7 +18,7 @@
 
 
             <div class="inner-page-text-box">
-                <div class="inner-page-text-box-title">安全纰漏</div>
+                <div class="inner-page-text-box-title">安全信息披露</div>
 
                 <div class="clr"></div>
 
