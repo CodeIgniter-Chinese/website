@@ -12,8 +12,8 @@
 				</div>
 			</div><!--cv-boxes-version end-->
 			<div class="cv-boxes-content">
-				<p>CodeIgniter 4 是最新的框架版本， 专为 PHP 7.3 及以上（包括 8.1）版本打造。</p>
-                <p>发布日期为2020 年 2 月 24 日。 当前版本为 <span id="v4name"><?= $v4name ?></span>。 </p>
+				<p>CodeIgniter 4 是框架的最新版本，专为 PHP 7.3 及以上（包括 8.1）版本打造。</p>
+				<p>第一版发布日期是 2020 年 2 月 24 日。当前版本为 <?= $v4name ?>。</p>
 				<p>
                     你可以点击下面的按钮此版本的框架, 但是我们推荐你查看《用户手册》的
 					<a href="https://codeigniter.org.cn/user_guide/installation/index.html" class="link-primary" target="_blank">安装章节</a>
@@ -72,5 +72,3 @@
 </script>
 <div class="clr"></div>
 <?= $this->endSection() ?>
-
-
