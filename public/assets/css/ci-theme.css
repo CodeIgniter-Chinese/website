@@ -298,7 +298,7 @@ header {
 
 #top-menu {
 	float:right;
-	width:500px;
+	width:375px;
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
@@ -846,7 +846,7 @@ a.footer-menu-item:hover {
 #footer-inner-right {
 	float: right;
 	margin-top: 0;
-	width: 240px;
+	width: 185px;
 	height: 100%;
 	}
 
