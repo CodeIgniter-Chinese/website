@@ -32,16 +32,16 @@ class Api extends BaseController
 
     public function getContributors()
     {
-        $html = "<div class=\"inner-page-text-box-title\">感谢我们的杰出贡献者</div><div class=\"clr\"></div><!--inner-page-text-sub-box ends here-->";
+        // $html = "<div class=\"inner-page-text-box-title\">感谢我们的杰出贡献者</div><div class=\"clr\"></div><!--inner-page-text-sub-box ends here-->";
 
-        $enums = [
-            'framework3' => 'CodeIgniter 3',
-            'framework4' => 'CodeIgniter 4',
-            'translations3' => 'CodeIgniter 3 翻译',
-            'translations4' => 'CodeIgniter 4 翻译',
-            'website3' => 'CodeIgniter 3 网站',
-            'website4' => 'CodeIgniter 4 网站',
-        ];
+        // $enums = [
+        //     'framework3' => 'CodeIgniter 3',
+        //     'framework4' => 'CodeIgniter 4',
+        //     'translations3' => 'CodeIgniter 3 翻译',
+        //     'translations4' => 'CodeIgniter 4 翻译',
+        //     'website3' => 'CodeIgniter 3 网站',
+        //     'website4' => 'CodeIgniter 4 网站',
+        // ];
         // Get the top 12 contributors for each repo
         //foreach ($this->github->getContributors() as $id => $contributors) {
         //    $id = $enums[$id];
@@ -59,15 +59,15 @@ class Api extends BaseController
 
     //获取贡献者信息
 
-    public function getHeroesHtml($heroes): string
-    {
-        $hero_html = '';
-        if (isset($heroes) && count($heroes)) {
-            foreach ($heroes as $hero) {
-                $hero_html .= "<div class=\"contributor-profiles\"><a href=\"" . $hero->html_url . "\" class=\"contributors-profile-link\" target=\"_blank\">
-<img src=\"" . $hero->avatar_url . "\" class=\"contributor-profile-image\"  alt=\"" . esc($hero->login, 'attr') . "\" title=\"" . esc($hero->login, 'attr') . "\" /> <br /> <div class=\"contributors-stars\">" . $hero->stars . "</div> </a> </div>";
-            }
-        }
-        return $hero_html;
-    }
+//     public function getHeroesHtml($heroes): string
+//     {
+//         $hero_html = '';
+//         if (isset($heroes) && count($heroes)) {
+//             foreach ($heroes as $hero) {
+//                 $hero_html .= "<div class=\"contributor-profiles\"><a href=\"" . $hero->html_url . "\" class=\"contributors-profile-link\" target=\"_blank\">
+// <img src=\"" . $hero->avatar_url . "\" class=\"contributor-profile-image\"  alt=\"" . esc($hero->login, 'attr') . "\" title=\"" . esc($hero->login, 'attr') . "\" /> <br /> <div class=\"contributors-stars\">" . $hero->stars . "</div> </a> </div>";
+//             }
+//         }
+//         return $hero_html;
+//     }
 }
