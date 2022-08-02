@@ -147,7 +147,7 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">CodeIgniter 3</div>
 
-                <div id="target-framework3"></div>
+                <div id="target-framework3">...</div>
 
             </div><!--inner-page-text-sub-box ends here-->
 
@@ -156,7 +156,7 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">CodeIgniter 3 多语言</div>
 
-                <div id="target-translations3"></div>
+                <div id="target-translations3">...</div>
 
             </div><!--inner-page-text-sub-box ends here-->
 
@@ -165,7 +165,7 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">CodeIgniter 4</div>
 
-                <div id="target-framework4"></div>
+                <div id="target-framework4">...</div>
 
             </div><!--inner-page-text-sub-box ends here-->
 
@@ -174,7 +174,7 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">CodeIgniter 4 多语言</div>
 
-                <div id="target-translations4"></div>
+                <div id="target-translations4">...</div>
 
             </div><!--inner-page-text-sub-box ends here-->
 
@@ -185,7 +185,7 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">旧版官网</div>
 
-                <div id="target-website3"></div>
+                <div id="target-website3">...</div>
 
             </div><!--inner-page-text-sub-box ends here-->
 
@@ -194,14 +194,14 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">新版官网</div>
 
-                <div id="target-website4"></div>
+                <div id="target-website4">...</div>
 
             </div><!--inner-page-text-sub-box ends here-->
 
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">中国官网</div>
 
-                <div id="target-chinese"></div>
+                <div id="target-chinese">...</div>
 
             </div><!--inner-page-text-sub-box ends here-->
 
