@@ -38,15 +38,6 @@ abstract class BaseController extends Controller
     protected $helpers = [];
 
     /**
-     * Constructor.
-     */
-    public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
-    {
-        // Do Not Edit This Line
-        parent::initController($request, $response, $logger);
-    }
-
-    /**
      * Helper method to ensure we always have the info
      * we need on every page.
      */
