@@ -280,7 +280,7 @@
                 <div class="rnafp-name">最新主题</div>
                 <div class="clr"></div>
 
-                <div id="target-forum"></div>
+                <div id="target-forum">...</div>
             </div>
         </div>
 
