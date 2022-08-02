@@ -64,10 +64,10 @@ class Api extends BaseController
 
                     foreach ($temp as $index => $item) {
                         $temp[$index] = [
-                            'html_url' => (string)$item->html_url,
-                            'avatar_url' => (string)$item->avatar_url,
-                            'login' => (string)$item->login,
-                            'stars' => (string)$item->stars,
+                            'html_url'   => (string) $item->html_url,
+                            'avatar_url' => (string) $item->avatar_url,
+                            'login'      => (string) $item->login,
+                            'stars'      => (string) $item->stars,
                         ];
                     }
 
@@ -82,17 +82,17 @@ class Api extends BaseController
 
         $contributors_data['chinese'] = [
             [
-                'html_url' => 'https://github.com/wangdezhong',
+                'html_url'   => 'https://github.com/wangdezhong',
                 'avatar_url' => 'https://avatars.githubusercontent.com/u/14903402?v=4',
-                'login' => 'wangdezhong',
-                'stars' => '★★',
+                'login'      => 'wangdezhong',
+                'stars'      => '★★',
             ],
             [
-                'html_url' => 'https://github.com/hex-ci',
+                'html_url'   => 'https://github.com/hex-ci',
                 'avatar_url' => 'https://avatars.githubusercontent.com/u/13709?v=4',
-                'login' => 'hex-ci',
-                'stars' => '★★',
-            ]
+                'login'      => 'hex-ci',
+                'stars'      => '★★',
+            ],
         ];
 
         echo $this->render('json', ['output' => $contributors_data]);
