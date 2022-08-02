@@ -108,7 +108,7 @@ class Api extends BaseController
                 $repos = $this->github->getRepos();
 
                 $repos_data = [
-                    'html_url'         => $repos['framework4']->html_url,
+                    'html_url'         => (string)$repos['framework4']->html_url,
                     'stargazers_count' => number_format($repos['framework4']->stargazers_count),
                     'forks_count'      => number_format($repos['framework4']->forks_count),
                 ];
