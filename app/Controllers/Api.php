@@ -44,7 +44,7 @@ class Api extends BaseController
             ];
         }
 
-        echo $this->render('json', ['output' => $releases_data]);
+        return view('json', ['output' => $releases_data]);
     }
 
     public function getContributors()
@@ -95,7 +95,7 @@ class Api extends BaseController
             ],
         ];
 
-        echo $this->render('json', ['output' => $contributors_data]);
+        return view('json', ['output' => $contributors_data]);
     }
 
     // Get the latest framework releases
@@ -123,6 +123,6 @@ class Api extends BaseController
             ];
         }
 
-        echo $this->render('json', ['output' => $repos_data]);
+        return view('json', ['output' => $repos_data]);
     }
 }

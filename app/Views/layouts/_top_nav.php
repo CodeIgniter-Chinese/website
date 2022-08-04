@@ -27,5 +27,7 @@
         </div><!--top-menu ende-->
         <div class="clr"></div>
     </div><!--header inner ende-->
-    <script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+
 </header>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

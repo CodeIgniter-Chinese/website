@@ -2,14 +2,14 @@
     <div id="footer-inner">
         <div id="footer-inner-left">
             <a href="https://zhuanlan.zhihu.com/codeigniter" class="footer-menu-item" target="_blanks">知乎专栏</a>
-            <a href="/policies" class="footer-menu-item" >政策</a>
-            <a href="/the-fine-print" class="footer-menu-item" >保留条款</a>
+            <a href="/policies" class="footer-menu-item">政策</a>
+            <a href="/the-fine-print" class="footer-menu-item">保留条款</a>
             <a href="/security-disclosures" class="footer-menu-item">安全信息披露</a>
 <!--            <a href="/news" class="footer-menu-item">新闻</a>-->
-            <a href="/discuss" class="footer-menu-item" >社区</a>
-            <a href="/contribute" class="footer-menu-item" >贡献</a>
-            <a href="/download" class="footer-menu-item" >下载</a>
-            <a href="https://codeigniter.com" target="_blank" class="footer-menu-item" >English website</a>
+            <a href="/discuss" class="footer-menu-item">社区</a>
+            <a href="/contribute" class="footer-menu-item">贡献</a>
+            <a href="/download" class="footer-menu-item">下载</a>
+            <a href="https://codeigniter.com" target="_blank" class="footer-menu-item">English website</a>
         </div><!--footer-inner-left ends here-->
 
         <div id="footer-inner-right">
@@ -63,8 +63,6 @@
 
 </div>
 <!-- SCRIPTS -->
-
-
 
 <script>
     $('#menu-toggle button').click(function(){
