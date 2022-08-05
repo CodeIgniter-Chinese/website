@@ -79,7 +79,7 @@
                     <div class="ci-features-box-title">小巧的框架</div>
                     <div class="clr"></div>
                     <div class="ci-features-box-text">
-                        CodeIgniter 4 包括用户手册的安装包仅有6MB大小。
+                        CodeIgniter 4 包括用户手册的安装包仅有 6MB 大小。
                     </div><!--ci-features-box-text ends here-->
                 </div><!--ci-features-box-text ends here-->
             </div><!--ci-feature-box ends here-->
@@ -136,7 +136,7 @@
                     <div class="ci-features-box-title">强大的安全性</div>
                     <div class="clr"></div>
                     <div class="ci-features-box-text">
-                        我们非常重视安全问题， 内置针对 CSRF 和 XSS 攻击的保护。
+                        我们非常重视安全问题，内置针对 CSRF 和 XSS 攻击的保护。
                         CodeIgniter 4 增加了内容转义和 CSP
                     </div><!--ci-features-box-text ends here-->
                 </div><!--ci-features-box-text ends here-->
