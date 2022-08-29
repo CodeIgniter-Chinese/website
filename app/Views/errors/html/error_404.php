@@ -73,7 +73,7 @@
         <h1>404 - File Not Found</h1>
 
         <p>
-            <?php if (! empty($message) && $message !== '(null)') : ?>
+            <?php if (ENVIRONMENT !== 'production') : ?>
                 <?= nl2br(esc($message)) ?>
             <?php else : ?>
                 <div>请添加下面的微信将错误反馈给管理员。</div>
