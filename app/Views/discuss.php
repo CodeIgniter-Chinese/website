@@ -9,8 +9,7 @@
         <div id="discuss-icon-holder">
             <img src="/assets/icons/forum-new.png" id="discuss-icon" alt="discuss icon"/>
             <p>
-                CodeIgniter is a community-developed open source project, with several venues for the community members to gather
-                and exchange ideas.
+                CodeIgniter 是一个社区开发的开源项目，在社区中有各种版块供开发者收集和交换意见。
             </p>
         </div><!--icon ends here-->
 
@@ -18,63 +17,45 @@
 
         <div class="warning">
             <p>
-                Security issues should be reported with an email to our <a href="mailto:security@codeigniter.com" class="link-reverse">security team</a>, rather than being brought up on the forum or
-                raised as a Github issue, thanks!
+                安全问题应该发送邮件给我们的 <a href="mailto:security@codeigniter.com" class="link-reverse">安全团队</a>，而不是在论坛上发帖或提交一个 Github Issue，谢谢！
             </p>
         </div><!--warning ends here-->
 
         <div class="clr"></div>
 
         <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">Forum</div>
+            <div class="inner-page-text-box-title">论坛</div>
             <p>
-                Our forum has been setup using MyBB, with five main categories: <br />
+                我们的论坛使用 Discuz! 搭建，有 5 个主要部分：  <br />
             </p>
             <ul>
-                <li>General (news & discussion, lounge, events, and regional user groups)</li>
-                <li>Using CodeIgniter (choosing CodeIgniter, installation & setup, model-view-controller,
-                    libraries & helpers, best practices, and general help)</li>
-                <li>CodeIgniter 4 (Roadmap, Development, feature requests, support, discussion)</li>
-                <li>Development (CodeIgniter 3.x, CodeIgniter 2.x, and issues)</li>
-                <li>External Resources (addins, jobs, learn more, and spotlight)</li>
+                <li>问答求助</li>
+                <li>代码共享与下载</li>
+                <li>进阶讨论</li>
+                <li>教程发布与分享</li>
+                <li>其他资源（中文化、招聘和工作、项目展示等）</li>
             </ul>
             <p>
-                The forum is where you can ask for help or discuss issues you are having with framework.<br />
-                <a href="https://forum.codeigniter.com" class="buttons-reverse" target="_blank">Visit The Forum</a>
+                在论坛里你可以寻求帮助或讨论在框架使用中遇到的问题。<br />
+                <a href="https://codeigniter.org.cn/forums/" class="buttons-reverse" target="_blank">访问论坛</a>
             </p>
             <br /><br />
         </div><!--inner-page-text-box ende-->
 
         <div class="clr"></div>
 
-
-        <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">Slack</div>
-            <p>
-                CodeIgniter has a Slack channel, where you can engage with other members of the community. Anyone can
-                <a href="https://join.slack.com/t/codeigniterchat/shared_invite/zt-rl30zw00-obL1Hr1q1ATvkzVkFp8S0Q"
-                   class="link-primary" target="_blank">signup</a> for it :)
-            </p>
-
-            <p>
-                <a href="https://join.slack.com/t/codeigniterchat/shared_invite/zt-rl30zw00-obL1Hr1q1ATvkzVkFp8S0Q" class="buttons-reverse" target="_blank">Slack</a>
-            </p>
-            <br /><br />
-        </div><!--inner-page-text-box ends here-->
-
         <div class="clr"></div>
 
         <div class="inner-page-text-box">
             <div class="inner-page-text-box-title">Github</div>
             <p>
-                The development action takes place on Github. See the contribute page for more details.
+                所有开发行为都记录在 Github。更多细节请查看贡献页面
             </p>
             <p class="boldy600">
-                The Github repository is where you can file bug reports (github issues), or where you can submit pull requests
-                for enhancements to or fixes for framework. Github is *not* for support or help ... use the forum instead.
+                你可以在 Github 的 Issue 页面提交 BUG 报告，或者提交 pull 请求为框架添砖加瓦。我们【不在】 Github 上提供框架相关的技术支持和帮助，请使用论坛。
             </p>
             <p>
-                Github issues are also used for tracking planned and approved enhancements, often tied in to specific releases.
+                我们也使用 Github Issue 页面跟进开发计划和采纳功能增强的建议，这些会合并到特定的发布版本中。
             </p>
             <p>
                 <a href="https://github.com/bcit-ci/CodeIgniter/" class="buttons-reverse" target="_blank">CodeIgniter 3</a>

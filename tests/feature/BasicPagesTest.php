@@ -17,7 +17,7 @@ final class BasicPagesTest extends ProjectTestCase
         $result = $this->get('/');
 
         $result->assertStatus(200);
-        $result->assertSee('The small framework with powerful features');
+        $result->assertSee('小巧而功能强大');
     }
 
     public function testCanViewDiscuss()
@@ -25,7 +25,7 @@ final class BasicPagesTest extends ProjectTestCase
         $result = $this->get('/discuss');
 
         $result->assertStatus(200);
-        $result->assertSee('Security issues should be reported');
+        $result->assertSee('安全问题应该发送邮件给我们');
     }
 
     public function testCanViewContribute()
@@ -33,7 +33,7 @@ final class BasicPagesTest extends ProjectTestCase
         $result = $this->get('/contribute');
 
         $result->assertStatus(200);
-        $result->assertSee('Contribute to CodeIgniter');
+        $result->assertSee('为 CodeIgniter 贡献力量');
     }
 
     public function testCanViewDownload()
@@ -41,7 +41,7 @@ final class BasicPagesTest extends ProjectTestCase
         $result = $this->get('/download');
 
         $result->assertStatus(200);
-        $result->assertSee('Download');
+        $result->assertSee('下载');
     }
 
     public function testCanViewPolicies()
@@ -49,7 +49,7 @@ final class BasicPagesTest extends ProjectTestCase
         $result = $this->get('/policies');
 
         $result->assertStatus(200);
-        $result->assertSee('Terms of Service');
+        $result->assertSee('服务条款');
     }
 
     public function testCanViewFinePrint()
@@ -57,6 +57,6 @@ final class BasicPagesTest extends ProjectTestCase
         $result = $this->get('/the-fine-print');
 
         $result->assertStatus(200);
-        $result->assertSee('Trademarks');
+        $result->assertSee('商标');
     }
 }

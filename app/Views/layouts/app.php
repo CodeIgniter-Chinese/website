@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to CodeIgniter</title>
-    <meta name="description" content="The small framework with powerful features">
+    <title>CodeIgniter 中国 - PHP 框架 CodeIgniter 中国开发者社区</title>
+    <meta name="description" content="小巧而功能强大的框架">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url('/favicons/apple-touch-icon.png') ?>">
@@ -31,6 +31,7 @@
 
     <?= $this->include('layouts/_footer') ?>
 
-	<?= $this->renderSection('footerAssets') ?>
+    <?= $this->renderSection('footerAssets') ?>
+
 </body>
 </html>

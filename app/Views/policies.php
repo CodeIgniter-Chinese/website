@@ -8,25 +8,23 @@
         <div id="policies-icon-holder">
             <img src="/assets/icons/policies.png" id="policies-icon" alt="policies icon"/>
             <p>
-                CodeIgniter is a community-developed open source project, with several venues for the community members to gather
-                and exchange ideas.
+                CodeIgniter 是一个社区驱动的项目，社区可以为项目提供代码和文档两方面的帮助。如果想为项目提供帮助，请在 GitHub 上的 CodeIgniter 代码仓库中以 Issue 或 Pull Request 的形式提交。
             </p>
         </div><!--icon ends here-->
 
         <div class="clr"></div>
 
         <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">Terms of Service</div>
+            <div class="inner-page-text-box-title">服务条款</div>
             <p>
-                All messages posted on this website or forum express the views of the authors, and do not necessarily reflect
-                the views of the owners and administrators of this site. <br />
+                本网站或论坛上发布的所有消息均表达发布者的观点，并非代表本网站所有者和管理员的观点。 <br />
             </p>
             <p>
-                By registering on the forum, you agree not to post any messages that are obscene, vulgar, slanderous, hateful,
-                threatening, or that violate any laws. We will permanently ban all users who do so.
+                通过在论坛上注册，您不可以发布任何淫秽、粗俗、诽谤、仇恨、威胁或违反任何法律的信息。我们将永久禁止所有这样做的用户。
+
             </p>
             <p>
-                We reserve the right to remove, edit, or move any messages for any reason.
+                我们保留出于任何原因删除、编辑或移动任何消息的权利。
             </p>
 
         </div><!--inner-page-text-box ends here-->
@@ -35,16 +33,15 @@
 
 
         <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">Privacy Policy</div>
+            <div class="inner-page-text-box-title">隐私政策</div>
             <p>
-                We are committed to respecting and protecting your online privacy. <br />
+                我们致力于尊重和保护您的在线隐私。 <br />
             </p>
             <p>
-                We only collect your personal information when you voluntarily sign-up for a membership account in order to use the CodeIgniter forum.
-                Access to our website is generally unrestricted, and you may browse it anonymously.
+                我们仅在您自愿注册会员帐户以使用 CodeIgniter 论坛时收集您的个人信息。访问我们的网站通常不受限制，您可以匿名浏览。
             </p>
             <p>
-                Any information collected from you will not be disclosed, in accordance with BC's Freedom of Information and Protection of Privacy Act (RSBC 1996 ch. 165).
+                根据 BC 的《信息自由和隐私保护法》（RSBC 1996 ch. 165），从您那里收集的任何信息都不会被泄露。
             </p>
 
         </div><!--inner-page-text-box ends here-->
@@ -52,18 +49,15 @@
         <div class="clr"></div>
 
         <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">Website data</div>
+            <div class="inner-page-text-box-title">网站数据</div>
             <p>
-                Our servers automatically collect information that is essential to operating and maintaining the website's security.
-                The information collected may include: browser type, Internet Service Provider (ISP) name, and IP address. <br />
+                我们的服务器会自动收集对运营和维护网站安全至关重要的信息。收集的信息可能包括：浏览器类型、互联网服务提供商 (ISP) 名称和 IP 地址。 <br />
             </p>
             <p>
-                This website contains links to third party websites, and we are not responsible for the privacy provisions of those other websites.
+                本网站包含第三方网站的链接，我们不对这些其他网站的隐私条款负责。
             </p>
             <p>
-                Some portions of the website may distribute small pieces of information (called "cookies") to web browsers,
-                to assist you when you return to specific areas on the site. If you have concerns about cookies, you can change
-                your web browser settings not to accept this information, or to display warning messages.
+                网站的某些部分可能会向网络浏览器分发少量信息（称为“cookies”），以便在您返回网站的特定区域时为您提供帮助。如果您对 cookie 有疑虑，您可以更改您的网络浏览器设置以不接受此信息，或显示警告消息。
             </p>
 
         </div><!--inner-page-text-box ends here-->
