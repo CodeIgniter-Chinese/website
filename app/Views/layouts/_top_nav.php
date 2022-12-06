@@ -1,7 +1,7 @@
 <header>
     <div id="header-inner">
         <div id="logo">
-            <a href="/" title="CodeIgniter.com">
+            <a href="/" title="codeigniter.org.cn">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 500" width="185" height="44">
                     <style>
                         tspan { white-space:pre }
@@ -19,13 +19,15 @@
 
         <div id="top-menu">
             <!--<a href="discover.html" class="top-menu-item hidden" title="CodeIgniter.com">Discover</a>-->
-            <a href="/news" class="top-menu-item hidden <?php if (url_is('/news*')) : ?>top-menu-item-active<?php endif ?>">News</a>
-            <a href="/discuss" class="top-menu-item hidden <?php if (url_is('/discuss')) : ?>top-menu-item-active<?php endif ?>">Discuss</a>
-            <a href="/contribute" class="top-menu-item hidden <?php if (url_is('/contribute')) : ?>top-menu-item-active<?php endif ?>">Contribute</a>
-            <a href="/user_guide/index.html" class="top-menu-item hidden">Learn</a>
-            <a href="/download" class="top-menu-item-download">Download</a>
+            <!--<a href="/news" class="top-menu-item hidden <?php if (url_is('/news*')) : ?>top-menu-item-active<?php endif ?>">新闻</a>-->
+            <a href="/discuss" class="top-menu-item hidden <?php if (url_is('/discuss')) : ?>top-menu-item-active<?php endif ?>">开发者社区</a>
+            <a href="/contribute" class="top-menu-item hidden <?php if (url_is('/contribute')) : ?>top-menu-item-active<?php endif ?>">贡献</a>
+            <a href="/user_guide/index.html" class="top-menu-item hidden">用户手册</a>
+            <a href="/download" class="top-menu-item-download">下载</a>
         </div><!--top-menu ende-->
         <div class="clr"></div>
     </div><!--header inner ende-->
 
 </header>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

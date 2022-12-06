@@ -1,11 +1,11 @@
-# CodeIgniter Website
+# CodeIgniter Chinese Website
 
-[![](https://github.com/codeigniter4projects/website/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4projects/website/actions/workflows/phpunit.yml)
-[![](https://github.com/codeigniter4projects/website/workflows/PHPStan/badge.svg)](https://github.com/codeigniter4projects/website/actions/workflows/phpstan.yml)
-[![](https://github.com/codeigniter4projects/website/workflows/Deptrac/badge.svg)](https://github.com/codeigniter4projects/website/actions/workflows/deptrac.yml)
-[![Coverage Status](https://coveralls.io/repos/github/codeigniter4projects/website/badge.svg?branch=develop)](https://coveralls.io/github/codeigniter4projects/website?branch=develop)
+[![](https://github.com/CodeIgniter-Chinese/website/workflows/PHPUnit/badge.svg)](https://github.com/CodeIgniter-Chinese/website/actions/workflows/phpunit.yml)
+[![](https://github.com/CodeIgniter-Chinese/website/workflows/PHPStan/badge.svg)](https://github.com/CodeIgniter-Chinese/website/actions/workflows/phpstan.yml)
+[![](https://github.com/CodeIgniter-Chinese/website/workflows/Deptrac/badge.svg)](https://github.com/CodeIgniter-Chinese/website/actions/workflows/deptrac.yml)
+[![Coverage Status](https://coveralls.io/repos/github/CodeIgniter-Chinese/website/badge.svg?branch=develop)](https://coveralls.io/github/CodeIgniter-Chinese/website?branch=develop)
 
-This is the official website for the CodeIgniter PHP framework. 
+This is the chinese website for the CodeIgniter PHP framework. 
 
 The website has been open-sourced in the interest of transparency.
 We welcome issues and pull requests, to handle corrections.  

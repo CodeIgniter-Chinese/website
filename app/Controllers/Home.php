@@ -2,29 +2,38 @@
 
 namespace App\Controllers;
 
-use Github\Exception\ExceptionInterface;
-
 class Home extends BaseController
 {
     public function index()
     {
-        // Get the latest framework releases
-        try {
-            $repos = $this->github->getRepos();
+        $news = [
+            [
+                'title' => 'CodeIgniter 4.0 正式版发布了！',
+                'url'   => 'https://zhuanlan.zhihu.com/p/108894797',
+                'date'  => '2020.02.24',
+            ],
+            [
+                'title' => 'CodeIgniter 使用技巧系列文章',
+                'url'   => 'https://zhuanlan.zhihu.com/p/68800595',
+                'date'  => '2019.06.12',
+            ],
+            [
+                'title' => 'CodeIgniter 4 alpha 1 版发布了',
+                'url'   => 'https://zhuanlan.zhihu.com/p/45641550',
+                'date'  => '2018.09.29',
+            ],
+            [
+                'title' => 'CodeIgniter 4 中文手册翻译计划',
+                'url'   => 'https://zhuanlan.zhihu.com/p/28911539',
+                'date'  => '2017.08.30',
+            ],
+            [
+                'title' => 'CodeIgniter 4 Milestone 1 版发布了',
+                'url'   => 'https://zhuanlan.zhihu.com/p/21482815',
+                'date'  => '2016.07.04',
+            ],
+        ];
 
-            $data = [
-                'html_url'         => $repos['framework4']->html_url,
-                'stargazers_count' => number_format($repos['codeigniter4']->stargazers_count),
-                'forks_count'      => number_format($repos['codeigniter4']->forks_count),
-            ];
-        } catch (ExceptionInterface $e) {
-            $data = [
-                'html_url'         => 'https://github.com/codeigniter4/CodeIgniter4',
-                'stargazers_count' => '',
-                'forks_count'      => '',
-            ];
-        }
-
-        echo $this->render('home', $data);
+        echo $this->render('home', ['news' => $news]);
     }
 }

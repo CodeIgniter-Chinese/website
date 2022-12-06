@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to CodeIgniter</title>
+    <title>CodeIgniter 中国 - PHP 框架 CodeIgniter 中国开发者社区</title>
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -30,12 +30,29 @@
     <section id="content-outer-news">
         <div id="content-inner-news">
             <div id="news-left-column">
-                <?= $this->renderSection('sidebar') ?>
+                <div class='widget'>
+                    <h4>最近的帖子</h4>
+                    <a href="https://codeigniter.org.cn/forums/thread-80-1-1.html">
+                        CodeIgniter 中国 微信群、微信公众号</a>
+                </div>
             </div>
 
             <div id="news-column">
-                <?= $this->renderSection('content') ?>
-            </div><!--news-column ends-->
+                <div class="news-box">
+                    <div class="news-box-title">
+                        <a class="news-box-title-link" href="https://codeigniter.org.cn/forums/thread-80-1-1.html">CodeIgniter 中国 微信群、微信公众号</a>
+                    </div>
+
+                    <div class="meta">
+                        2007-11-29     Hex
+                        <br><br>归档:
+                        <ul class="tags">
+                            <li><a href="https://codeigniter.org.cn/forums/forum.php">论坛</a></li>
+                            <li><a href="https://codeigniter.org.cn/forums/forum-answer-1.html">CodeIgniter 问答求助</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="clr"></div>
 
         </div><!--content inner ends-->

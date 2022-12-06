@@ -2,13 +2,9 @@
 
 namespace App\Controllers;
 
-use App\Libraries\GitHub;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\IncomingRequest;
-use CodeIgniter\HTTP\RequestInterface;
-use CodeIgniter\HTTP\ResponseInterface;
-use Psr\Log\LoggerInterface;
 
 /**
  * Class BaseController
@@ -37,22 +33,6 @@ abstract class BaseController extends Controller
      * @var array
      */
     protected $helpers = [];
-
-    /**
-     * @var GitHub
-     */
-    protected $github;
-
-    /**
-     * Constructor.
-     */
-    public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
-    {
-        // Do Not Edit This Line
-        parent::initController($request, $response, $logger);
-
-        $this->github = service('github');
-    }
 
     /**
      * Helper method to ensure we always have the info

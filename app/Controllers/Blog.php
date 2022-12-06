@@ -29,9 +29,10 @@ class Blog extends BaseController
      */
     public function index()
     {
-        echo $this->render('blog/list', [
-            'posts' => $this->blog->getRecentPosts($this->config->perPage),
-        ]);
+//        echo $this->render('blog/list', [
+//            'posts' => $this->blog->getRecentPosts($this->config->perPage),
+//        ]);
+        echo $this->render('layouts/two_column');
     }
 
     /**

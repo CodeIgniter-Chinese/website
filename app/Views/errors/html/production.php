@@ -16,8 +16,8 @@
 
         <h1 class="headline">Whoops!</h1>
 
-        <p class="lead">We seem to have hit a snag. Please try again later...</p>
-
+		<p class="lead">请添加下面的微信将错误反馈给管理员...</p>
+        <p class="lead"><img src="https://codeigniter.org.cn/forums/data/attachment/forum/201703/31/180052c0rrrp05errptctp.png" alt="微信小助手" style="width: 450px;height: 450px"></p>
     </div>
 
 </body>
