@@ -12,12 +12,10 @@
 				</div>
 			</div><!--cv-boxes-version end-->
 			<div class="cv-boxes-content">
-				<p>CodeIgniter 4 是框架的最新版本，专为 PHP 7.3 及以上（包括 8.1）版本打造。</p>
+				<p>CodeIgniter 4 是框架的最新版本，专为 PHP 7.4 及以上（包括 8.2）版本打造。</p>
 				<p>第一版发布日期是 2020 年 2 月 24 日。当前版本为 <span id="v4name">...</span>。</p>
 				<p>
-                    你可以点击下面的按钮下载框架, 但是我们推荐你查看《用户手册》的
-					<a href="/user_guide/installation/index.html" class="link-primary" target="_blank">安装章节</a>
-					可以选择几种不同的方式来安装框架:)
+          你可以点击下面的按钮下载框架, 但是我们推荐你查看《用户手册》的<a href="/user_guide/installation/index.html" class="link-primary" target="_blank">安装章节</a>，使用 Composer 来安装 :)
 				</p>
 				<div class="clr"></div>
 				<div class="cv-boxes-buttons-area">
