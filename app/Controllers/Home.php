@@ -8,6 +8,11 @@ class Home extends BaseController
     {
         $news = [
             [
+                'title' => 'PHP 框架 CodeIgniter 发布 4.3 版',
+                'url'   => 'https://zhuanlan.zhihu.com/p/604862961',
+                'date'  => '2023.02.09',
+            ],
+            [
                 'title' => 'CodeIgniter 4.0 正式版发布了！',
                 'url'   => 'https://zhuanlan.zhihu.com/p/108894797',
                 'date'  => '2020.02.24',
@@ -26,11 +31,6 @@ class Home extends BaseController
                 'title' => 'CodeIgniter 4 中文手册翻译计划',
                 'url'   => 'https://zhuanlan.zhihu.com/p/28911539',
                 'date'  => '2017.08.30',
-            ],
-            [
-                'title' => 'CodeIgniter 4 Milestone 1 版发布了',
-                'url'   => 'https://zhuanlan.zhihu.com/p/21482815',
-                'date'  => '2016.07.04',
             ],
         ];
 
