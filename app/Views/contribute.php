@@ -240,7 +240,7 @@ $.ajax({
         var template = cbT.compile('template-heroes');
         $('#target-framework3').html(template({listing: res.data.framework3}));
         $('#target-translations3').html(template({listing: res.data.translations3}));
-        $('#target-framework4').html(template({listing: res.data.framework4}));
+        $('#target-framework4').html(template({listing: res.data.codeigniter4}));
         $('#target-translations4').html(template({listing: res.data.translations4}));
         $('#target-website3').html(template({listing: res.data.website3}));
         $('#target-website4').html(template({listing: res.data.website4}));
