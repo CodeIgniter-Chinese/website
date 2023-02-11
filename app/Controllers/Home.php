@@ -8,7 +8,7 @@ class Home extends BaseController
     {
         $news = [
             [
-                'title' => 'PHP 框架 CodeIgniter 发布 4.3 版',
+                'title' => 'CodeIgniter 发布 4.3 版',
                 'url'   => 'https://zhuanlan.zhihu.com/p/604862961',
                 'date'  => '2023.02.09',
             ],
