@@ -46,7 +46,7 @@ class Blog
             helper('filesystem');
 
             if (! is_dir($this->config->contentPath)) {
-                log_message('error', '文章不存在: ' . $this->config->contentPath);
+                log_message('error', 'Blog Content Path is not a valid directory: ' . $this->config->contentPath);
 
                 throw BlogException::forInvalidContent();
             }
@@ -207,7 +207,7 @@ class Blog
     {
         $posts = $this->getPopularPosts($limit);
 
-        if (! (is_countable($posts) ? count($posts) : 0)) {
+        if (is_countable($posts) ? count($posts) : 0) {
             return '';
         }
 
@@ -220,6 +220,8 @@ class Blog
     /**
      * Reads in a post from file and parses it
      * into a Post Entity.
+     *
+     * @return Post|null
      */
     protected function readPost(string $folder, string $filename)
     {
@@ -234,7 +236,7 @@ class Blog
         // Get slug and date
         preg_match('|^([\d-]+).(\S+).md$|i', $filename, $matches);
 
-        if (! count($matches)) {
+        if ($matches === []) {
             return null;
         }
 
@@ -295,7 +297,7 @@ class Blog
         //     ![[ https://youtube.com/watch?v=xlkjsdfhlk ]]
         preg_match_all('|!video\[([\s\w:/.?=&;]*)\]|i', $html, $matches);
 
-        if (! count($matches)) {
+        if ($matches === []) {
             return $html;
         }
 
