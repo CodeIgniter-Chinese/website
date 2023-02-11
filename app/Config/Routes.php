@@ -44,9 +44,9 @@ $routes->get('the-fine-print', 'FinePrint::index');
 $routes->get('security-disclosures', 'Disclosures::index');
 
 // Blog
-$routes->get('news', 'Blog::index');
-$routes->get('news/c/(:segment)', 'Blog::category/$1');
-$routes->get('news/(:segment)', 'Blog::post/$1');
+// $routes->get('news', 'Blog::index');
+// $routes->get('news/c/(:segment)', 'Blog::category/$1');
+// $routes->get('news/(:segment)', 'Blog::post/$1');
 
 // Api
 $routes->get('api/get-download-data', 'Api::getDownloadData');

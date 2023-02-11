@@ -14,8 +14,15 @@
 
         <div id="inner-page-opening-text">
             <p>
-                CodeIgniter 是一个社区驱动的项目，社区可以为项目提供代码和文档两方面的帮助。如果想为项目提供帮助，请在 GitHub 上的 <a href="https://github.com/codeigniter4/CodeIgniter4" target="_blank" class="link-primary">CodeIgniter 代码仓库</a> 中以 Issue 或 Pull Request 的形式提交。
+                CodeIgniter 是一个社区驱动的项目，社区可以为项目提供代码和文档两方面的帮助。如果想为项目提供帮助，请在 GitHub 上的 <a href="https://github.com/codeigniter4/CodeIgniter4" target="_blank" class="link-primary">CodeIgniter4 代码仓库</a>中以 <a href="https://github.com/codeigniter4/CodeIgniter4/issues" target="_blank" class="link-primary">Issue</a> 或 <a href="https://github.com/codeigniter4/CodeIgniter4/pulls" target="_blank" class="link-primary">Pull Request</a> 的形式提交。
             </p>
+
+            <div class="inner-page-text-box">
+                <p>
+                    The CodeIgniter 4 roadmap is explained on <a href="https://forum.codeigniter.com/forum-28.html" target="_blank" class="link-primary">our forum</a>.
+                </p>
+            </div>
+
             <p>
                 提交 Issue 是指出 BUG 最好的方式。如果你找到 CodeIgniter 的一个程序 BUG 或文档错误，那么请首先检查下面几件事：
             </p>
@@ -35,12 +42,9 @@
         <div class="clr"></div>
 
         <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">CodeIgniter 4</div>
+            <div class="inner-page-text-box-title">CodeIgniter 3</div>
             <p>
-                CodeIgniter 4 有独立的 <a href="https://github.com/codeigniter4/CodeIgniter4" target="_blank" class="link-primary">Github 代码库</a>。我们希望 CodeIgniter 4 与 CodeIgniter 3 保持彼此独立。
-            </p>
-            <p>
-                讨论 CodeIgniter 4 相关话题请访问 <a href="https://codeigniter.org.cn/forums/forum-answer-1.html" target="_blank" class="link-primary">论坛</a>，查看开发进度请访问 <a href="https://github.com/codeigniter4/CodeIgniter4/issues" target="_blank" class="link-primary">代码库的 Issue</a>。
+                CodeIgniter 3 有独立的 <a href="https://github.com/bcit-ci/CodeIgniter" target="_blank" class="link-primary">Github 代码库</a>.
             </p>
         </div><!--contribute boxes ende-->
 
@@ -62,10 +66,10 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">测试人员</div>
                 <p>
-                    我们非常想了解哪些功能正常哪些功能不正常！因为目前 3.x 版的功能开发是最主要的工作，所以测试人员是项目最需要的。如果你确信自己找到了一个 BUG，并且你是 Github 用户，那么请提交一个“Issue“。如果你不是 Github 用户，或者不确信是否找到了 BUG，那么请在论坛的<a href="https://codeigniter.org.cn/forums/forum-answer-1.html" target="_blank" class="link-primary">问答求助</a>板块发帖讨论！
+                    我们非常想了解哪些功能正常哪些功能不正常！因为目前 4.x 版的功能开发是最主要的工作，所以测试人员是项目最需要的。如果你确信自己找到了一个 BUG，并且你是 Github 用户，那么请提交一个“Issue“。如果你不是 Github 用户，或者不确信是否找到了 BUG，那么请在论坛的<a href="https://codeigniter.org.cn/forums/forum-answer-1.html" target="_blank" class="link-primary">问答求助</a>板块发帖讨论！
                 </p>
                <p>
-                   CodeIgniter 4 讨论也可以访问<a href="https://codeigniter.org.cn/forums/forum-answer-1.html" target="_blank" class="link-primary boldy600">问答求助</a>版块。
+                   CodeIgniter 3 讨论也可以访问<a href="https://codeigniter.org.cn/forums/forum-answer-1.html" target="_blank" class="link-primary boldy600">问答求助</a>版块。
                </p>
             </div><!--inner-page-text-sub-box ende-->
 
@@ -74,10 +78,10 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">文字工作者</div>
                 <p>
-                    无论什么项目都需要完善的文档！《用户手册》是 <a href="https://github.com/bcit-ci/CodeIgniter" target="_blank" class="link-primary">CodeIgniter 项目</a>的一部分，用户永远不会觉得教程太多。
+                    无论什么项目都需要完善的文档！《用户手册》是 <a href="https://github.com/codeigniter4/CodeIgniter4" target="_blank" class="link-primary">CodeIgniter 项目</a>的一部分，用户永远不会觉得教程太多。
                 </p>
                 <p>
-                    CodeIgniter 4 的用户手册是其 <a href="https://github.com/codeigniter4/CodeIgniter4" target="_blank" class="link-primary">Github 项目</a>的一部分。
+                    CodeIgniter 3 的用户手册是其<a href="https://github.com/bcit-ci/CodeIgniter" target="_blank" class="link-primary">代码库</a>的一部分。
                 </p>
             </div><!--inner-page-text-sub-box ende-->
 
@@ -119,8 +123,8 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">程序员</div>
                 <p>
-                    如果你想参与 CodeIgniter 新版本的开发，请加入我们的<a href="https://github.com/codeigniter4/" target="_blank" class="link-primary">项目</a>!
-                    《用户手册》中有详细的如何为 CodeIgniter 贡献力量的<a href="https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing/styleguide.rst" target="_blank">指导</a>，
+                    如果你想参与 CodeIgniter4 新版本的开发，请加入我们的<a href="https://github.com/codeigniter4/" target="_blank" class="link-primary">项目</a>!
+                    《用户手册》中有详细的如何为 CodeIgniter 贡献力量的<a href="https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing/README.md" target="_blank">指导</a>，
                     但需要注意的是确保你的代码符合我们的开发规范，也要撰写合适的文档，并请使用 <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank" class="link-primary">Git-Flow 分支模型</a>。
                 </p>
                 <p>
@@ -145,6 +149,24 @@
             <div class="clr"></div>
 
             <div class="inner-page-text-sub-box">
+                <div class="inner-page-text-sub-box-title">CodeIgniter 4</div>
+
+                <div id="target-framework4">...</div>
+
+            </div><!--inner-page-text-sub-box ends here-->
+
+            <div class="clr"></div>
+
+            <div class="inner-page-text-sub-box">
+                <div class="inner-page-text-sub-box-title">CodeIgniter 4 多语言</div>
+
+                <div id="target-translations4">...</div>
+
+            </div><!--inner-page-text-sub-box ends here-->
+
+            <div class="clr"></div>
+
+            <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">CodeIgniter 3</div>
 
                 <div id="target-framework3">...</div>
@@ -163,22 +185,11 @@
             <div class="clr"></div>
 
             <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">CodeIgniter 4</div>
+                <div class="inner-page-text-sub-box-title">新版官网</div>
 
-                <div id="target-framework4">...</div>
-
-            </div><!--inner-page-text-sub-box ends here-->
-
-            <div class="clr"></div>
-
-            <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">CodeIgniter 4 多语言</div>
-
-                <div id="target-translations4">...</div>
+                <div id="target-website4">...</div>
 
             </div><!--inner-page-text-sub-box ends here-->
-
-            <div class="clr"></div>
 
             <div class="clr"></div>
 
@@ -190,13 +201,6 @@
             </div><!--inner-page-text-sub-box ends here-->
 
             <div class="clr"></div>
-
-            <div class="inner-page-text-sub-box">
-                <div class="inner-page-text-sub-box-title">新版官网</div>
-
-                <div id="target-website4">...</div>
-
-            </div><!--inner-page-text-sub-box ends here-->
 
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">中国官网</div>

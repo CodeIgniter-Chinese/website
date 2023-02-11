@@ -79,7 +79,7 @@
                     <div class="ci-features-box-title">小巧的框架</div>
                     <div class="clr"></div>
                     <div class="ci-features-box-text">
-                        CodeIgniter 4 包括用户手册的安装包仅有 6MB 大小。
+                        CodeIgniter 4 大小是 1.1MB，加上用户手册(epub)也只有 1.6MB。
                     </div><!--ci-features-box-text ends here-->
                 </div><!--ci-features-box-text ends here-->
             </div><!--ci-feature-box ends here-->
