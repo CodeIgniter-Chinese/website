@@ -69,5 +69,5 @@ jobs:
 
       - name: Mutate with Infection
         run: |
-          git fetch --depth=1 origin $GITHUB_BASE_REF
-          infection --threads=2 --skip-initial-tests --coverage=build/phpunit --git-diff-base=origin/$GITHUB_BASE_REF --git-diff-filter=AM --logger-github --ignore-msi-with-no-mutations
+          git fetch --depth=1 origin develop
+          infection --threads=2 --skip-initial-tests --coverage=build/phpunit --git-diff-base=origin/develop --git-diff-filter=AM --logger-github --ignore-msi-with-no-mutations
