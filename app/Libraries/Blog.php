@@ -136,6 +136,8 @@ class Blog
 
     /**
      * Gets a single post
+     *
+     * @return Post|null
      */
     public function getPost(string $slug)
     {
@@ -144,7 +146,7 @@ class Blog
         if (! $post = cache($cacheKey)) {
             $files = glob("{$this->config->contentPath}*.{$slug}.md");
 
-            if (! (is_countable($files) ? count($files) : 0)) {
+            if (empty($files)) {
                 throw PageNotFoundException::forPageNotFound();
             }
 
@@ -187,7 +189,7 @@ class Blog
     {
         $posts = $this->getRecentPosts($limit);
 
-        if (! (is_countable($posts) ? count($posts) : 0)) {
+        if ($posts === []) {
             return '';
         }
 
