@@ -3,7 +3,7 @@
         <div id="logo">
             <a href="/" title="codeigniter.org.cn">
 				<img src="assets/icons/ci-logo.png" />
-				<div id="logo-text">Code<span class="boldy600">Igniter</span></div>
+				<div id="logo-text">Code<span class="boldy600">Igniter</span><span style="margin-top: -2px;display: inline-block;margin-left: 5px;">中国</span></div>
             </a>
         </div>
         <!--
