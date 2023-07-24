@@ -10,12 +10,10 @@
             <img src="/assets/icons/44521256.png" id="policies-icon"/>
         </div><!--icon ends here-->
 
-            <p>以下项目已报告给 CodeIgniter 核心团队，并作为潜在的安全问题加以解决。并非所有这些都会影响您的网站，但您应该定期查看此列表以确定是否存在威胁。
+            <p class="inner-page-opening-text">以下项目已报告给 CodeIgniter 核心团队，并作为潜在的安全问题加以解决。并非所有这些都会影响您的网站，但您应该定期查看此列表以确定是否存在威胁。
             </p>
 
-            <p>这些披露主要针对网站和周边环境。影响框架的安全披露将通过 GitHub 的内置安全顾问功能处理。
-            </p>
-
+            <p class="inner-page-opening-text">这些披露主要针对网站和周边环境。影响框架的安全披露将通过 GitHub 的内置安全顾问功能处理。
 
             <div class="inner-page-text-box">
                 <div class="inner-page-text-box-title">安全信息披露</div>
