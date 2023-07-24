@@ -8,6 +8,11 @@ class Home extends BaseController
     {
         $news = [
             [
+                'title' => '全文重新翻译的 CodeIgniter 4.3.6 中文手册发布',
+                'url'   => 'https://zhuanlan.zhihu.com/p/645477079',
+                'date'  => '2023.07.24',
+            ],
+            [
                 'title' => 'CodeIgniter 发布 4.3 版',
                 'url'   => 'https://zhuanlan.zhihu.com/p/604862961',
                 'date'  => '2023.02.09',
@@ -27,11 +32,11 @@ class Home extends BaseController
                 'url'   => 'https://zhuanlan.zhihu.com/p/45641550',
                 'date'  => '2018.09.29',
             ],
-            [
-                'title' => 'CodeIgniter 4 中文手册翻译计划',
-                'url'   => 'https://zhuanlan.zhihu.com/p/28911539',
-                'date'  => '2017.08.30',
-            ],
+            // [
+            //     'title' => 'CodeIgniter 4 中文手册翻译计划',
+            //     'url'   => 'https://zhuanlan.zhihu.com/p/28911539',
+            //     'date'  => '2017.08.30',
+            // ],
         ];
 
         echo $this->render('home', ['news' => $news]);
