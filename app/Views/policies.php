@@ -7,7 +7,7 @@
     <div id="content-inner">
         <div id="policies-icon-holder">
             <img src="/assets/icons/policies.png" id="policies-icon" alt="policies icon"/>
-            <p>
+            <p class="inner-page-opening-text">
                 CodeIgniter 是一个社区驱动的项目，社区可以为项目提供代码和文档两方面的帮助。如果想为项目提供帮助，请在 GitHub 上的 CodeIgniter 代码仓库中以 Issue 或 Pull Request 的形式提交。
             </p>
         </div><!--icon ends here-->

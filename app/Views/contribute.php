@@ -12,7 +12,7 @@
 
         <div class="clr"></div>
 
-        <div id="inner-page-opening-text">
+        <div class="inner-page-opening-text">
             <p>
                 CodeIgniter 是一个社区驱动的项目，社区可以为项目提供代码和文档两方面的帮助。如果想为项目提供帮助，请在 GitHub 上的 <a href="https://github.com/codeigniter4/CodeIgniter4" target="_blank" class="link-primary">CodeIgniter4 代码仓库</a>中以 <a href="https://github.com/codeigniter4/CodeIgniter4/issues" target="_blank" class="link-primary">Issue</a> 或 <a href="https://github.com/codeigniter4/CodeIgniter4/pulls" target="_blank" class="link-primary">Pull Request</a> 的形式提交。
             </p>

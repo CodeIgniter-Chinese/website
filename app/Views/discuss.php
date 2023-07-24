@@ -37,12 +37,10 @@
             </ul>
             <p>
                 在论坛里你可以寻求帮助或讨论在框架使用中遇到的问题。<br />
-                <a href="https://codeigniter.org.cn/forums/" class="buttons-reverse" target="_blank">访问论坛</a>
+                <a href="https://codeigniter.org.cn/forums/" class="buttons" target="_blank">访问论坛</a>
             </p>
             <br /><br />
         </div><!--inner-page-text-box ende-->
-
-        <div class="clr"></div>
 
         <div class="clr"></div>
 
@@ -58,8 +56,8 @@
                 我们也使用 Github Issue 页面跟进开发计划和采纳功能增强的建议，这些会合并到特定的发布版本中。
             </p>
             <p>
-                <a href="https://github.com/bcit-ci/CodeIgniter/" class="buttons-reverse" target="_blank">CodeIgniter 3</a>
-                <a href="https://github.com/codeigniter4/codeigniter4/" class="buttons-reverse" target="_blank">CodeIgniter 4</a>
+                <a href="https://github.com/bcit-ci/CodeIgniter/" class="buttons" target="_blank">CodeIgniter 3</a>
+                <a href="https://github.com/codeigniter4/codeigniter4/" class="buttons" target="_blank">CodeIgniter 4</a>
             </p>
             <br /><br />
         </div><!--inner-page-text-box ends here-->
