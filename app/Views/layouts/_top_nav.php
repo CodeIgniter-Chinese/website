@@ -26,8 +26,8 @@
         </div>
 
         <div id="top-menu">
-            <a href="/discuss" class="top-menu-item hidden <?php if '/discuss')) : ?>top-menu-item-active<?php endif ?>">开发者社区</a>
-            <a href="/contribute" class="top-menu-item hidden <?php if '/contribute')) : ?>top-menu-item-active<?php endif ?>">贡献</a>
+            <a href="/discuss" class="top-menu-item hidden<?php if (url_is('/discuss')) : ?>top-menu-item-active<?php endif ?>">开发者社区</a>
+            <a href="/contribute" class="top-menu-item hidden <?php if (url_is('/contribute')) : ?>top-menu-item-active<?php endif ?>">贡献</a>
             <a href="/user_guide/index.html" class="top-menu-item hidden">用户手册</a>
             <a href="/download" class="top-menu-item-download">下载</a>
         </div><!--top-menu ende-->
