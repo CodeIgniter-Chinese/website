@@ -166,7 +166,7 @@
     <div id="important-links-inner">
         <a href="/download" class="important-link">
             <div class="important-link-boxes">
-                <span class="dark boldy600">下载 CodeIgniter</span>
+                <span class="boldy600 dark">下载 CodeIgniter</span>
                 <br/>
                 查找所有版本
                 <br/><br/>
@@ -179,7 +179,7 @@
 
         <a href="/user_guide/index.html" class="important-link">
             <div class="important-link-boxes">
-                <span class="dark boldy600">阅读用户手册</span>
+                <span class="boldy600 dark">阅读用户手册</span>
                 <br/>
                 清晰完善的文档
                 <br/><br/>
@@ -192,7 +192,7 @@
 
         <a href="/forums" class="important-link" target="_blank">
             <div class="important-link-boxes">
-                <span class="dark boldy600">到论坛讨论</span>
+                <span class="boldy600 dark">到论坛讨论</span>
                 <br/>
                 加入我们的社区
                 <br/><br/>
@@ -202,7 +202,7 @@
 
         <a href="https://github.com/codeigniter4/CodeIgniter4" class="important-link" target="_blank">
             <div class="important-link-boxes">
-                <span class="dark boldy600">GitHub开源社区</span>
+                <span class="boldy600 dark">GitHub开源社区</span>
                 <br/>
                 帮助修复 BUG 或开发新功能
                 <br/><br/>
