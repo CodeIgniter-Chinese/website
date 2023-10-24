@@ -9,14 +9,14 @@ on:
       - 'composer.*'
       - 'phpunit*'
       - '.github/workflows/infection.yml'
-  push:
-    branches:
-      - develop
-    paths:
-      - '**.php'
-      - 'composer.*'
-      - 'phpunit*'
-      - '.github/workflows/infection.yml'
+  workflow_call:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
   main:
@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
@@ -36,7 +36,7 @@ jobs:
           extensions: intl, json, mbstring, gd, xml, sqlite3
           coverage: xdebug
         env:
-          COMPOSER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up problem matchers for PHPUnit
         run: echo "::add-matcher::${{ runner.tool_cache }}/phpunit.json"
@@ -62,12 +62,9 @@ jobs:
             composer update --no-progress --no-interaction --prefer-dist --optimize-autoloader
           fi
 
-      - name: Test with PHPUnit
-        run: vendor/bin/phpunit --teamcity
-        env:
-          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Mutate with Infection
+      - name: Run Infection for added files only
         run: |
           git fetch --depth=1 origin develop
-          infection --threads=2 --skip-initial-tests --coverage=build/phpunit --git-diff-base=origin/develop --git-diff-filter=AM --logger-github --ignore-msi-with-no-mutations
+          infection --threads=max --git-diff-lines --git-diff-base=origin/develop --ignore-msi-with-no-mutations --only-covered --logger-github
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
