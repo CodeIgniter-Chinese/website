@@ -32,11 +32,11 @@ class Home extends BaseController
                 'url'   => 'https://zhuanlan.zhihu.com/p/108894797',
                 'date'  => '2020.02.24',
             ],
-            //[
+            // [
             //    'title' => 'CodeIgniter 使用技巧系列文章',
             //    'url'   => 'https://zhuanlan.zhihu.com/p/68800595',
             //    'date'  => '2019.06.12',
-            //],
+            // ],
             // [
             //     'title' => 'CodeIgniter 4 alpha 1 版发布了',
             //     'url'   => 'https://zhuanlan.zhihu.com/p/45641550',
