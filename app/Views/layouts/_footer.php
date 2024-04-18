@@ -57,7 +57,7 @@
 <div class="clr"></div>
 
 <div id="footer-copyrights">
-    <p>&copy; <?= date('Y') ?> CodeIgniter 基金会。CodeIgniter 是基于 MIT 开源许可协议发布的开源项目。</p>
+    <p>&copy; <?= date('Y') ?> CodeIgniter 基金会。CodeIgniter 是基于 MIT 开源许可协议发布的开源项目。<a href="https://beian.miit.gov.cn" target="_blank" style="color:#dfdfdf">京ICP备15004218-1号</a></p>
 
     <img id="scroll-to-top" src="/assets/icons/ci-footer.png" alt="codeigniter logotype"/>
 
