@@ -39,4 +39,4 @@
 
 </header>
 
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-10-y/jquery/3.4.1/jquery.min.js"></script>
