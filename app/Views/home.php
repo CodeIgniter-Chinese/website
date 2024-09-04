@@ -266,7 +266,7 @@
 <% /foreach %>
 </script>
 
-<script src="https://cdn.bootcdn.net/ajax/libs/dayjs/1.11.4/dayjs.min.js"></script>
+<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-10-y/dayjs/1.10.8/dayjs.min.js"></script>
 <script src="https://res.cdn.changbaimg.com/-/8d98e208cfa36594/cbT.js"></script>
 <script>
 $.ajax({
