@@ -1,4 +1,4 @@
-FROM php:8-fpm-alpine
+FROM php:8.3-fpm-alpine
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
     && apk add --no-cache icu icu-dev \
