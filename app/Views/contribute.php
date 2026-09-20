@@ -7,7 +7,7 @@
     <div id="content-inner">
         <div id="contribute-heart-holder">
             <img src="/assets/icons/heart.png" id="contribute-heart" alt="heart icon"/>
-            <p>为 CodeIgniter 贡献力量</p>
+            <p class="inner-page-text-box-title">为 CodeIgniter 贡献力量</p>
         </div><!--heart ends here-->
 
         <div class="clr"></div>
@@ -16,12 +16,6 @@
             <p>
                 CodeIgniter 是一个社区驱动的项目，社区可以为项目提供代码和文档两方面的帮助。如果想为项目提供帮助，请在 GitHub 上的 <a href="https://github.com/codeigniter4/CodeIgniter4" target="_blank" class="link-primary">CodeIgniter4 代码仓库</a>中以 <a href="https://github.com/codeigniter4/CodeIgniter4/issues" target="_blank" class="link-primary">Issue</a> 或 <a href="https://github.com/codeigniter4/CodeIgniter4/pulls" target="_blank" class="link-primary">Pull Request</a> 的形式提交。
             </p>
-
-            <div class="inner-page-text-box">
-                <p>
-                    The CodeIgniter 4 roadmap is explained on <a href="https://forum.codeigniter.com/forum-28.html" target="_blank" class="link-primary">our forum</a>.
-                </p>
-            </div>
 
             <p>
                 提交 Issue 是指出 BUG 最好的方式。如果你找到 CodeIgniter 的一个程序 BUG 或文档错误，那么请首先检查下面几件事：
@@ -42,9 +36,8 @@
         <div class="clr"></div>
 
         <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">CodeIgniter 3</div>
             <p>
-                CodeIgniter 3 有独立的 <a href="https://github.com/bcit-ci/CodeIgniter" target="_blank" class="link-primary">Github 代码库</a>.
+                CodeIgniter 3 有独立的 <a href="https://github.com/bcit-ci/CodeIgniter" target="_blank" class="link-primary">GitHub 代码库</a>.
             </p>
         </div><!--contribute boxes ende-->
 
@@ -52,7 +45,7 @@
 
         <div class="warning">
             <p>
-                安全问题应该发送邮件给我们的安全团队，而不是在论坛上发帖或提交一个 Github Issue，谢谢！
+                安全问题应该发送邮件给我们的安全团队，而不是在论坛上发帖或提交一个 GitHub Issue，谢谢！
                 详细内容请访问负责任的漏洞披露页面。
             </p>
         </div><!--warning ende-->
@@ -108,7 +101,7 @@
             <div class="inner-page-text-sub-box">
                 <div class="inner-page-text-sub-box-title">设计师</div>
                 <p>
-                    非常欢迎为官网、《用户手册》或论坛的设计提出宝贵建议和帮助！我们已把官网和《用户手册》等在 Github 上开源，你可以随时帮助修改页面风格。
+                    非常欢迎为官网、《用户手册》或论坛的设计提出宝贵建议和帮助！我们已把官网和《用户手册》等在 GitHub 上开源，你可以随时帮助修改页面风格。
                 </p>
             </div><!--inner-page-text-sub-box ende-->
 
@@ -128,7 +121,7 @@
                     但需要注意的是确保你的代码符合我们的开发规范，也要撰写合适的文档，并请使用 <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank" class="link-primary">Git-Flow 分支模型</a>。
                 </p>
                 <p>
-                    CodeIgniter 3 版本：它的 <a href="https://github.com/bcit-ci/CodeIgniter/" target="_blank" class="link-primary boldy600">Github</a>。
+                    CodeIgniter 3 版本：它的 <a href="https://github.com/bcit-ci/CodeIgniter/" target="_blank" class="link-primary">GitHub</a>。
                 </p>
             </div><!--inner-page-text-sub-box ende-->
 

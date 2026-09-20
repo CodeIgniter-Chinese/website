@@ -31,7 +31,7 @@
 
 
         <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">隐私政策</div>
+            <div class="inner-page-text-box-title">商标使用政策</div>
             <p>
                 欢迎您在项目中使用 CodeIgniter 徽标，前提是您...
             </p>
@@ -63,7 +63,7 @@
         <div class="clr"></div>
 
         <div class="inner-page-text-box">
-            <div class="inner-page-text-box-title">网站数据</div>
+            <div class="inner-page-text-box-title">第三方政策</div>
             <p>
                 本网站上提及的第三方公司和产品仅供参考，既不构成认可也不构成推荐。
             </p>

@@ -34,7 +34,7 @@ class Blog
      * If $category is present, will locate within a
      * subfolder of that name.
      *
-     * @return Post[]
+     * @return list<Post>
      *
      * @throws BlogException
      */
@@ -116,7 +116,7 @@ class Blog
         foreach ($files as $file) {
             foreach ($slugs as $slug => $count) {
                 try {
-                    if (stripos($file, $slug) !== false) {
+                    if (str_contains(strtolower($file), strtolower($slug))) {
                         $posts[$count] = $this->getPost($slug);
                     }
                 }
@@ -286,7 +286,7 @@ class Blog
      * Embed syntax:
      *   !video[ https://www.youtube.com/watch?v=1GYoEMiXcX0&feature=youtu.be ]
      *
-     * @return string|string[]|null
+     * @return list<string>|string|null
      */
     protected function parseVideoTags(?string $html = null)
     {
@@ -295,17 +295,13 @@ class Blog
         // Since the plugin doesn't support video embeds, yet,
         // wire our own up. The syntax for video embeds is
         //     ![[ https://youtube.com/watch?v=xlkjsdfhlk ]]
-        preg_match_all('|!video\[([\s\w:/.?=&;]*)\]|i', $html, $matches);
+        $result = preg_match_all('|!video\[([\s\w:/.?=&;]*)\]|i', $html, $matches);
 
-        if ($matches === []) {
+        if ($result < 1) {
             return $html;
         }
 
-        for ($i = 0; $i < count($matches) - 1; $i++) {
-            if (empty($matches[0]) || empty($matches[1])) {
-                continue;
-            }
-
+        for ($i = 0; $i < count($matches[0]); $i++) {
             $html = str_replace($matches[0][$i], embedVideo($matches[1][$i]), $html);
         }
 
