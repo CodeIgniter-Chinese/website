@@ -36,9 +36,9 @@
                 <li>其他资源（中文化、招聘和工作、项目展示等）</li>
             </ul>
             <p>
-                在论坛里你可以寻求帮助或讨论在框架使用中遇到的问题。<br />
-                <a href="https://codeigniter.org.cn/forums/" class="buttons cta-btn" target="_blank">访问论坛</a>
+                在论坛里你可以寻求帮助或讨论在框架使用中遇到的问题。
             </p>
+            <a href="https://codeigniter.org.cn/forums/" class="buttons cta-btn" target="_blank">访问论坛</a>
         </div><!--inner-page-text-box ends here-->
 
         <div class="clr"></div>
