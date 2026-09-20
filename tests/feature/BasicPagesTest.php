@@ -47,7 +47,7 @@ final class BasicPagesTest extends ProjectTestCase
         $result = $this->get('/');
 
         $result->assertStatus(200);
-        $result->assertSee('The small framework with powerful features');
+        $result->assertSee('小巧而功能强大');
     }
 
     public function testCanViewDiscuss()
